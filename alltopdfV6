@@ -1,0 +1,330 @@
+<!Doctype Html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ALLTOPDF.COM.NG</title>
+
+<style>
+body{
+background-color: white;
+}
+.header{
+display: flex;
+background-color: white;
+padding-right: 10px;
+padding-leftt: 10px;
+
+}
+.header h1{
+	font-family: Stencil;
+	text-align: center;
+	color: darkred;
+}
+.header p{
+	font-family: tahoma;
+	text-align: center;
+	color: blackblue;
+}
+.menu{
+	flex: 2;
+}
+.navbar{
+  background: linear-gradient(40deg, darkred, black);
+  /* border-top-right-radius: 40px; */
+}
+
+.menu, li{
+	   display: inline-block;
+	   padding: 0 10px;
+	   font-family; "Lato", sans-serif;
+
+}
+.menu, li, a{
+		font-size: 15px;
+		color: white;
+		text-decoration: none;
+		padding-right: 10px;
+		font-weight: bold;
+}
+a:hover {
+  color: #747c71;
+}
+
+.flex-container{
+	display: flex;
+	flex-direction: row;
+	background-color: lavender;
+	justify-content: center;
+}
+.flex-container > div{
+  background-color: white;
+  width: auto;
+  margin: 10px;
+  text-align: center;
+  line-height: 100px;
+  font-size: 10px;
+  border-radius: 1em;
+  flex-basis: 400px;
+  box-shadow: 0px 4px 6px black;
+  
+}
+
+.flex-ins-container{
+	display: flex;
+	flex-direction: row;
+	background-color: lavender;
+	width: auto;
+	  
+}
+.flex-ins-container > div:hover{
+  background-color: #0f2547;
+  width: 550px;
+  margin: 5px;
+  text-align: center;
+ width: auto;
+  font-size: 10px;
+  border-radius: 1em;
+  border-style: dotted;
+  padding-right: 5px;
+  box-shadow: #ed63ff;
+  color: #6c63ff;
+  border-color: #6c63ff;
+  box-shadow: 0px 12px 14px black;
+	top: -10px;
+	transition: 2s;
+}
+
+.flex-ins-container > div {
+  background-color: black;
+  width: auto;
+  margin: 5px;
+  text-align: center;
+  line-height: 30px;
+  font-size: 10px;
+  border-radius: 1em;
+  border-style: dotted;
+  padding-right: 5px;
+  box-shadow: #ed63ff;
+  color: #6c63ff;
+  border-color: #6c63ff;
+  box-shadow: 0px 12px 14px #6c63ffe8;
+
+}
+.flex-ins-container h1{
+	font-family: Stencil;
+	text-align: center;
+	color: white;
+}
+.flex-ins-container p{
+	font-family: tahoma;
+	text-align: center;
+	color: white;
+	font-weight: bold;
+	font-size: 12px;
+}
+
+.flex-ft-cont{
+display: flex;
+	flex-direction: row;
+	background-color: black;
+	width: auto;
+}
+.flex-ft-cont > div{
+background-color: black;
+  width: 550px;
+  margin: 5px;
+  text-align: center;
+  line-height: 15px;
+  font-size: 12px;
+  border-radius: 1em;
+  width: auto;
+}
+.flex-ft-cont h1{
+	font-family: Stencil;
+	text-align: center;
+	color: white;
+}
+.flex-ft-cont p{
+	font-family: tahoma;
+	text-align: center;
+	color: #00c0ff;
+	
+}
+button{
+  text-transform: uppercase;
+  background-color: transparent;
+  color: blue;
+  border: 5px;
+  cursor: pointer;
+  border-radius: 50px;
+  padding: 15px 40px;
+  border: 1px solid #fff;
+  font-weight: lighter !important;
+  background-color: #fff;
+  box-shadow: #ed63ff;
+  color: #6c63ff;
+  border-radius: 50px;
+  border-color: #6c63ff;
+  box-shadow: 0px 12px 14px #6c63ffe8;
+}
+
+  button:hover {
+  background-color: white;
+  box-shadow: #ed63ff;
+  color: black;
+  border-radius: 50px;
+  border-color: red;
+  border-right-color: blue;
+  box-shadow: 0px 12px 14px #6c63ffe8;
+}
+
+  button {
+  font-size: 17px;
+}
+/* For fullview: */
+.{width: 15.33%;}
+.{width: 16.66%;}
+.{width: 25%;}
+.{width: 33.33%;}
+.{width: 41.66%;}
+.{width: 50%;}
+.{width: 58.33%;}
+.{width: 66.66%;}
+.{width: 75%;}
+.flex-ft-condt{width: 83.33%;}
+.{width: 91.66%;}
+.{width: 100%;}
+
+@media only screen and (max-width: 752px) {
+  /* For mobile phones:  This idiot give me alot of headache*/
+  .header-h1{
+  font-size: 12px;
+  }
+  .header{
+  display: flex;
+  flex-direction: column;
+  width: auto;
+  
+  }
+  .flex-ft-cont{
+	display: flex;
+	flex-direction: column;
+	border-radius: none;
+	height: 30px;
+	width: auto;
+	
+	}
+  .flex-ins-container{
+	display: flex;
+	flex-direction: column;
+	height: 400px;
+	width: auto;
+	}
+	.flex-container{
+	display: flex;
+	flex-direction: column;
+	height: 350px;
+	width: auto;
+
+		}
+		
+}
+
+</style>
+</head>
+
+ <div class="header">
+     <div class="header-h1">
+        <h1>ALLTOPDF.COM.NG</H1>
+  </div>
+
+	<div class="header-p">
+		</br><p> - Free online Documents converter of any document of your choice to a Portable Document Format (PDF) 
+			</P>
+	</div>
+</div>
+
+      <div class="navbar">
+      <div class="menu">
+		  <ul>
+			<li><a href="#">Home</a></li>
+			<li><a href="#">How it Works</a></li>
+			<li><a href="#">About Us</a></li>
+			<li><a href="#">Contact Us</a></li>
+			<li><a href="#">Report a Bug</a></li>
+			<li><a href="#">Our Community</a></li>
+			<li><a href="#">Developers</a></li>
+		  </ul>
+	  </div>
+    </div>
+<body>
+</br>
+<div class="flex-ins-container">
+	
+			<div class="ins1">
+			<h1>Instructions</h1>
+				<p> PDF is also an abbreviation for the Netware Printer Definition File. </br>
+			PDF (Portable Document Format) is a file format that has captured all the </br>
+			elements of a printed document as an electronic image that you can view, </br>
+			navigate, print, or forward to someone else.</p>
+		</div>		
+		
+		<div class="ins2" style="flex-basis: 700px">
+			<h1>About the App</h1>
+			<p> PDF is also an abbreviation for the Netware Printer Definition File. </br>
+			PDF (Portable Document Format) is a file format that has captured all the </br>
+			elements of a printed document as an electronic image that you can view, </br>
+			navigate, print, or forward to someone else.</p>
+		</div>		
+		
+</div>
+
+</br>
+</br>
+
+<div class="flex-container">
+	
+		<div id="up-btn" style="flex-basis: 400px">
+			<form>
+				<input type="file" Placeholder="Upload">
+			</form>
+		</div>
+	
+		<div id="sub-btn">
+			<button>Convert</button>
+		</div>
+		
+		<div id="ins-text">
+			<center><p style="font-size: 15px; color:black; font-weight: bold" >Progress</p><center>
+		</div>		
+</div>
+
+</br>
+</br>
+
+<div class="flex-ft-cont">
+	
+		<div id="cont1" style="flex-basis: 400px">
+			<h1>Contact Us</h1>
+				<p>You can reach us by</br>
+			Contacting any of this... </br>
+			Email: lovegraphist17@gmail.com  </br>
+			Tel: +2348141703772</p>
+		</div>
+	
+		<div id="cont1" style="flex-basis: 400px">
+			<h1>About Us</h1>
+			<p>PDF is also an abbreviation for the  </br>
+			PDF (Portable Document Format) is a file  </br>
+			elements of a printed document as an  </br>
+			navigate, print, or forward.</p>
+		</div>
+		<div id="cont1" style="flex-basis: 400px">
+			<h1>Privacy Policy</h1>
+				<p>elements of a printed document as an </br>electronic image that you can view, </br>
+			navigate, print, or forward to someone else..</p>
+		</div>
+</div>
+
+</body>
+<html>
